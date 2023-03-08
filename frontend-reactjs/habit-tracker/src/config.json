@@ -1,4 +1,4 @@
 {
-    "BACKEND_URL":"https://habitTracker.herokuapp.com",
-    "TEST_URL":"http://localhost:5000"
+    "BACKEND_URL":"https://atomicHabits",
+    "TEST_URL":"https://habittrackerdeployment-production.up.railway.app"
 }

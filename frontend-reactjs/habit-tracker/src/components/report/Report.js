@@ -180,7 +180,6 @@ function Report() {
               <div className=" md:ml-12 lg:ml-16 2xl:ml-20  md:w-24 md:mt-8 bg-themepurple hover:opacity-60 p-1 rounded-md shadow-md  h-8 pl-4 mb-4">
                 <button
                   onClick={(e) => {
-                    e.preventDefault();
                     setNav("habit");
                   }}
                 >
@@ -190,7 +189,6 @@ function Report() {
               <div className="md:ml-12  lg:ml-16 2xl:ml-20 ml-2 md:w-24 md:mt-2  bg-themepurple hover:opacity-60 p-1 rounded-md shadow-md  h-8 pl-4">
                 <button
                   onClick={(e) => {
-                    e.preventDefault();
                     setNav("system");
                   }}
                 >
@@ -200,7 +198,6 @@ function Report() {
               <div className="md:ml-12 lg:ml-16 2xl:ml-20 ml-2 md:w-24 md:-translate-y-4  bg-themepurple hover:opacity-60 p-1 rounded-md shadow-md  h-8 pl-3">
                 <button
                   onClick={(e) => {
-                    e.preventDefault();
                     setNav("logout");
                   }}
                 >
