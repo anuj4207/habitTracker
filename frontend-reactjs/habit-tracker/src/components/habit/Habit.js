@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Redirect } from "react-router-dom";
 import config from "../../config.json";
+
 function Habit() {
   const [habitName, setHabitName] = useState("");
   const [dailyHabit, setDailyHabit] = useState({});
@@ -13,7 +14,6 @@ function Habit() {
   const headersConfig = {
     headers: { Authorization: `Bearer ${localStorage.getItem("id_token")}` },
   };
-
   //const [auth, setAuth] = useState(true);
   const handleAdd = (e) => {
     e.preventDefault();

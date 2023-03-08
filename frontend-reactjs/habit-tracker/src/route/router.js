@@ -13,21 +13,21 @@ const ReactRouter = () => {
         <Route exact path="/">
           <Login></Login>
         </Route>
-        <Route path="/home">
+        <Route exact path="/home">
           <Home></Home>
         </Route>
-        <Route path="/habit">
+        <Route exact path="/habit">
           <Habit></Habit>
         </Route>
-        <Route path="/system">
+        <Route exact path="/system">
           <System></System>
         </Route>
-        <Route path="/report">
+        <Route exact path="/report">
           <Report></Report>
         </Route>
-        <Route path="*">
+        {/* <Route path="*">
           <Login></Login>
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
