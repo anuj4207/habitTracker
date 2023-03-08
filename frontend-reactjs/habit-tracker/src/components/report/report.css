@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .report {
+        @apply bg-themepurple text-white text-lg;
+        font-family: 'Kalam', cursive;
+        height: 720px;
+    }
+        table {
+            border: 2px solid forestgreen;
+            
+            
+        }
+    
+        th {
+            border-bottom: 1px solid black;
+        }
+    
+        td {
+            text-align: center;
+        }
+
+}
+@media only screen and (max-width: 600px) {
+.con {
+        display: none;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .con {
+        display: none;
+    }
+}

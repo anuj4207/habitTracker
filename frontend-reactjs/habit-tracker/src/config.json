@@ -1,0 +1,4 @@
+{
+    "BACKEND_URL":"https://habitTracker.herokuapp.com",
+    "TEST_URL":"http://localhost:5000"
+}
