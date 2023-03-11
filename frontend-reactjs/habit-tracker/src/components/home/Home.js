@@ -6,6 +6,7 @@ export default function Home() {
   const [page, setPage] = useState("");
   //const [auth, setAuth] = useState(true);
   const handleClick = (e) => {
+    e.preventDefault();
     setPage(e.target.value);
   };
   useEffect(() => {

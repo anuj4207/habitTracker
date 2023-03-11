@@ -1,4 +1,5 @@
 {
     "BACKEND_URL":"https://atomicHabits",
-    "TEST_URL":"https://habittrackerdeployment-production.up.railway.app"
+    "TEST_URL":"http://127.0.0.1:3000",
+    "TEST_URL1":"https://habittrackerdeployment-production.up.railway.app"
 }

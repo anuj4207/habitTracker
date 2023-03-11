@@ -25,9 +25,9 @@ const ReactRouter = () => {
         <Route exact path="/report">
           <Report></Report>
         </Route>
-        {/* <Route path="*">
+        <Route path="*">
           <Login></Login>
-        </Route> */}
+        </Route>
       </Switch>
     </Router>
   );

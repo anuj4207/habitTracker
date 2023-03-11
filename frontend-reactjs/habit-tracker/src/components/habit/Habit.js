@@ -54,7 +54,7 @@ function Habit() {
         headersConfig
       )
       .then((res) => {
-        //console.log("data", res.data.data);
+        console.log("data", res.data.data);
         setmyDefaultHabit(res.data.data.habit);
       })
       .catch((err) => {
@@ -194,7 +194,7 @@ function Habit() {
           {/* CONTENT */}
           <div className=" md:col-span-8 md:pl-6 h-screen">
             <div className="grid grid-cols-2 justify-items-end">
-              <div className="flex x:ml-14 md:ml-6  text-black text-2xl md:mt-10 mt-20">
+              <div className="flex ml-16 md:ml-6  text-black md:text-2xl md:mt-10 mt-10 md:mb-0 mb-4 w-max">
                 HABIT TRACKER
               </div>
               <div className="con border-l-purple-800 rounded-full ">
@@ -224,9 +224,10 @@ function Habit() {
                 </div>
               </div>
             </div>
-            <div className="grid md:grid-row-2 -translate-y-56">
+            <div className="grid md:grid-row-2 md:-translate-y-56 -translate-y-24">
               <div className="text-black md:ml-24 mt-10  ">
-                <h1 className="ml-6 md:mt-0 mt-16">MY HABITS</h1>
+                <h1 className="ml-6 md:mt-0 mt-16">DEFAULT HABITS</h1>
+
                 <div className="bg-white md:w-2/3 h-48 shadow-md rounded-md hover:bg-green-50 overflow-y-auto pt-2">
                   <h1 className=" text-themepurple ml-10 mt-1">
                     Create your Habit List

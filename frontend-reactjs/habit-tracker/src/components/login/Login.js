@@ -29,7 +29,8 @@ function Login() {
         setAuthenticated(true);
         console.log(
           localStorage.getItem("authenticated"),
-          localStorage.getItem("username")
+          localStorage.getItem("username"),
+          localStorage.getItem("id_token")
         );
       })
       .catch((err) => {
@@ -123,7 +124,7 @@ function Login() {
                     className=" w-1/4 ml-6 bg-themegreen rounded-md shadow-xl"
                     onClick={handleSigninSubmit}
                   >
-                    SIGNIN
+                    SIGNUP
                   </button>
                 </div>
                 {error && (
