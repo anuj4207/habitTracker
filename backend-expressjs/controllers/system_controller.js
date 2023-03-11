@@ -16,7 +16,7 @@ const addSystem = async (req, res) => {
     comment: req.body.comment,
   };
   const findDb = await systemDb.find({ username: username, date: currentDate });
-  if (findDb !== null) {
+  if (findDb !== null && findDb.length != 0) {
     console.log(findDb);
     try {
       let avgSystemRate = findDb[0].systemAvgRate;
